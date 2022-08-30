@@ -197,6 +197,13 @@ main .sobre-nosotros{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
    
 }
+h2.titulo{
+    transition: all 1s ;
+}
+
+h2.titulo:hover {
+    transform: scale(1.1);
+}
 
 
 .cards .card img{
