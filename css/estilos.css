@@ -65,6 +65,8 @@ header .textos-header{
 .textos-header h1{
     font-size: 50px;
     color:#fff;
+    
+
 }
 
 .textos-header h2{
@@ -180,7 +182,9 @@ main .sobre-nosotros{
 .cards{
     display: flex;
     justify-content: space-evenly;
+   
 }
+
 
 .cards .card{
     background: #135111;
@@ -191,6 +195,14 @@ main .sobre-nosotros{
     justify-content: space-evenly;
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+   
+}
+h2.titulo{
+    transition: all 1s ;
+}
+
+h2.titulo:hover {
+    transform: scale(1.1);
 }
 
 .cards .card img{
