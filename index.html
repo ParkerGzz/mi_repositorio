@@ -1,170 +1,121 @@
 <!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página Fotografia Felipe</title>
-    <link rel="shortcut icon" href="assets/5a631e30cd478440c20da8c5578dd77c-discos-con-logo-circular.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="./pages/galeria.html">Galeria</a>
-            <a href="./pages/trabajos.html">Trabajos</a>
-            <a href="./pages/sobremi.html">Sobre mi</a>
-            <a href="./pages/contactodidac.html">Contacto</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="logo" href="index.html"><img class="logo" src="assets/Captura de Pantalla 2022-08-31 a la(s) 22.07.34-modified.png" alt="FGR"></a>
+                
+                <button class="navbar-toggler bg-white" data-toggle="collapse" data-target="#miLista">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="miLista">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-white" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-white" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-white" href="./pages/trabajos.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-white" href="./pages/sobremi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-white" href="./pages/contactodidac.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <section class="textos-header">
-            <h1>Obten las mejores fotos</h1>
-            <h2>Capturando tus mejores momentos</h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
-    </header>
-    <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Sobre las fotos</h2>
-            <div class="contenedor-sobre-nosotros">
-                <img src="assets/undraw_image_viewer_re_7ejc.svg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <h3><span>1</span>Las mejores fotos</h3>
-                    <p>Fotos de alta calidad con disponibilidad para comprarla con derechos de usos poara tus paginas web o para imprimirlas</p>
-                    <h3><span>2</span>Las mejores impresiones</h3>
-                    <p>Imagenes impresas en maquinas profecionales en un papel mate del tamaño que quieras </p>
-                </div>
-            </div>
-        </section>
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 class="titulo">Portafolio</h2>
-                <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="assets/pajaror2.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/portadaescalada.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/cerveza_mano_blanconegroPUBLICACION_.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/14-2.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/bicigrande.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/buhoojos.png" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/condor.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="assets/zeff_cerro.jpg" alt="">
-                        <div class="hover-galeria">
-                            <img src="assets/16410.png" alt="">
-                            <p>Mas sobre la foto</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="clientes contenedor">
-            <h2 class="titulo">Que dicen los clientes</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="assets/Ignacio.jpg.webp" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Ignacio</h4>
-                        <p>Me encantaron las fotos para decorar mi casa y darle un toque artistico.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/maria.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>Maria</h4>
-                        <p>Use las fotos para mi sitio web y las visitas aumentaron.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 class="titulo">Nuestros servicios</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="assets/undraw_good_team_re_hrvm.svg" alt="">
-                        <h3>Fotografia de eventos</h3>
-                        <p>Servicio personalizado para eventos.</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="assets/undraw_art_museum_-8-or4.svg" alt="">
-                        <h3>Venta de fotos</h3>
-                        <p>Compra tus fotos favoritas para decorar o utulizar en tu pagina web.</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="assets/undraw_photo_session_re_c0cp.svg" alt="">
-                        <h3>Fotografia de productos</h3>
-                        <p>Cuentanos sobre tu marca y su personalidad para entregar el mejor servicio.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <h4>Instagran</h4>
-                <p>8296312</p>
-            </div>
-            <div class="content-foo">
-                <h4>Email</h4>
-                <p>gonzalez.felipe66@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <h4>Location</h4>
-                <p>989984321</p>
+        <div class="container">
+            <div class="title font-weight-bold">
+                Obten las mejores <br>fotos!<br>
+                <button class="btn mt-3">Contactate ahora</button>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; Felipe Gonzalez Photograpy</h2>
+    </header>
+    <main>
+   
+        
+        
+       
+        </div>
+        <div class="row" id="row-frace">
+            <div class="container text-center">
+                <h3 class="text-white">Foto de Tucuquere o búho magallanico, usualmente suele encontrarse en quebradas agudas de la cordillera</h3>
+                <h3 class="text-white mt-4 font-weight-bold">- Felipe Gonzalez R.</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row text-white">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-4 px-5">
+                        <h4 class="font-weight-bold mb-4">Mi historia</h4>
+                        <p>Parti a los 15 años con una camara que 7 años de antiguedad, entreteniendome en mis tiempos libres</p>
+                    </div>
+                    <div class="col-lg-4 px-5">
+                        <h4 class="font-weight-bold mb-4">CREDITOS</h4>
+                        <a href="https://www.freepik.com/free-photos-vectors/water">Logo creado con Freepik -
+                            www.freepik.com</a>
+                    </div>
+                    <div class="col-lg-4 px-5">
+                        <h4 class="font-weight-bold mb-4">CONTACTATE</h4>
+                        <div class="d-flex">
+                            <span class="material-icons">
+                                local_phone
+                            </span>
+                            <p class="ml-3">+56 555 5555</p>
+                        </div>
+                        <div class="d-flex">
+                            <span class="material-icons">
+                                house
+                            </span>
+                            <p class="ml-3">alguna casa #14</p>
+                        </div>
+                        <div class="d-flex">
+                            <span class="material-icons">
+                                email
+                            </span>
+                            <p class="ml-3">felipegonzalezcorreo@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+    
+
+    
+    
 </body>
 
 </html>
